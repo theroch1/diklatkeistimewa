@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+  <script language='JavaScript'>
+var txt="  Pelatihan Internalisasi Keistimewaan Bagi Pejabat Administrator Di Lingkungan Pemerintah Kabupaten Sleman Tahun 2021  |";
+var speed=300;
+var refresh=null;
+function action() { document.title=txt;
+txt=txt.substring(1,txt.length)+txt.charAt(0);
+refresh=setTimeout("action()",speed);}action();
+</script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logosleman.gif" type="image/x-icon"/>
+</head>
+
+<body>
+    <img id="userPhoto" src="img/logosleman.gif" alt="User Photo">
+    
+    <a href="https://bkpp.slemankab.go.id/" id="userName">Pelatihan Internalisasi Keistimewaan <br> Bagi Pejabat Administrator <br> Di Lingkungan Pemerintah Kabupaten Sleman Tahun 2021</a>
+    <div id="links">
+        <a class="link" href="https://forms.gle/9JsZfoxUjZCU3swr9" target="_blank">Rangkuman Materi</a>
+        <a class="link" href="https://forms.gle/oUQHNC8jipCEoxVX9" target="_blank">Post Test</a>
+    </div>
+
+    <!-- Javascript -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script  src="index.js"></script>
+</body>
+</html>
